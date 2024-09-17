@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         card.dataset.image = image;
 
         const img = document.createElement('img');
-        img.src = `images/${image}.png`;
+        img.src = `images/${image}.svg`;
         card.appendChild(img);
 
         card.addEventListener('click', () => flipCard(card));
